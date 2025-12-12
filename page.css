@@ -1,0 +1,95 @@
+* {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+    }
+    body {
+      background: #fff;
+    }
+    
+    nav {
+      width: 100%;
+      background: #0b6ad6;
+      color: white;
+      padding: 15px 30px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    nav .head-line {
+      font-size: 25px;
+      font-weight: bold;
+    }
+    nav ul {
+      list-style: none;
+      display: flex;
+      gap: 20px;
+    }
+    nav ul li a {
+      text-decoration: none;
+      color: rgb(229, 241, 13);
+      font-size: 25px;
+    }
+    
+    .container {
+      display: grid;
+      grid-template-columns: 1fr 300px;
+      gap: 40px;
+      width: 80%;
+      margin: 40px auto;
+      padding: 30px;
+      background: rgb(235, 227, 7);
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    .about-section h2 {
+      margin-bottom: 15px;
+    }
+    .profile-pic img {
+      width: 100%;
+      aspect-ratio: 1/1;
+      border-radius: 65%;
+      object-position: top;
+      object-fit: cover;
+    }
+    .social-links{
+      display: flex;
+    }
+    .cv-button{
+      width: 50%;
+      padding: 40px;
+      border: 1px solid skyblue;
+      border-radius: 5px;
+      background: rgb(15, 126, 206);
+      cursor: pointer;
+      font-size: 26px;
+      color: rgb(229, 241, 13)
+      
+    }
+    .blog {
+      display: flex;
+      gap: 30px;
+      width: 100%;
+      margin: 30px auto;
+      padding-top: 50px;
+      background: rgb(230, 230, 230);
+      border-radius: 10px;
+    }
+    .col {
+    flex: 2;
+    background: #13d30f;
+    padding: 70px;
+    border-radius: 12px;
+    box-shadow: 0 0 10px rgba(36, 169, 171, 0.1);
+    flex-direction: column;
+    }
+    .col p {
+      font-size: 20px ;
+    }
+    .blog h2 {
+      align-items: center;
+      font-size: 32px ;
+      margin-bottom: 20px;
+      text-align: center;
+    }
